@@ -48,7 +48,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', ''),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'makilog_calen'),
+            'database' => env('DB_DATABASE', 'calen'),
             'username' => env('DB_USERNAME', 'makilog_calen'),
             'password' => env('DB_PASSWORD', 'masakiwakabayashi'),
             'unix_socket' => env('DB_SOCKET', ''),
