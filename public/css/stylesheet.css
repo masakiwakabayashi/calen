@@ -1,0 +1,120 @@
+
+
+
+#app{
+    min-height: 1100px;
+}
+
+body{
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#app #gnavi{
+    /* background-color: #FAE622; */
+    background-color: red;
+    box-shadow: 0px 20px 15px -21px #000000;
+    /* box-shadow: 0px 20px 15px -21px #777777; */
+    /* color: white; */
+}
+
+#app #gnavi a{
+    /* font-size: 1.2rem; */
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: red;
+}
+
+#app #gnavi a:hover{
+    color: black;
+}
+
+
+.new_date_add{
+    text-align: center;
+}
+
+.new_event_add{
+    text-align: center;
+}
+
+.card-header{
+    background-color: #FFA000;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.index_event_sentence{
+    border-bottom:  1px solid #FFA000;
+    margin-bottom: 1rem;
+}
+
+
+/* .index_event_content_title{
+    padding: 1rem;
+    border-top: 1px solid #FFA000;
+    border-left: 1px solid #FFA000;
+    border-right: 1px solid #FFA000;
+} */
+/* 
+.index_event_content{
+    padding: 1rem;
+    border: 1px solid #FFA000;
+} */
+
+
+.btn{
+    width: 223px;
+}
+
+
+.btn_right_event{
+    margin-left: 20%;
+    /* margin-left: 40%; */
+}
+
+.content_center{
+    text-align: center;
+}
+
+
+.post_event_body img{
+    width: 100%;
+    height: auto;
+}
+
+
+#index_event_title {
+    /* color: white; */
+    color: black;
+}
+
+/* #index_event_title a:hover{
+    color: black;
+} */
+
+/* .delete_btn_wrapper{
+    text-align: end;
+} */
+
+.date_edit_btn{
+    width: 223px;
+}
+
+.delete_btn_wrapper button{
+    width: 223px;
+}
+
+.foot{
+    text-align: center;
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 0;
+}
+
+/*  */
