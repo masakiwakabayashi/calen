@@ -45,13 +45,16 @@
                                     予定を変更する
                                 </a>
                             </div>
+                            <div class="col-12 separete"></div>
                             <div class="col">
                                 <form action="{{ route('event.destroy', ['event_id' => $event->id]) }}" method="POST" class="delete_btn_wrapper">
                                     @method('DELETE')
                                     @csrf
-                                    <button class="btn btn-blue-grey btn_right_event" onclick="return confirm('{{ $event->title }}を削除して大丈夫ですか？')">
-                                        予定を削除する
-                                    </button>
+                                    <section class="mobile_section">
+                                        <button class="btn btn-blue-grey btn_right_event" onclick="return confirm('{{ $event->title }}を削除して大丈夫ですか？')">
+                                            予定を削除する
+                                        </button>
+                                    </section>
                                 </form>
                             </div>
                         </div>

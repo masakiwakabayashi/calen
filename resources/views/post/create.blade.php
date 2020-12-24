@@ -52,13 +52,16 @@
                         @enderror
                     </div>
                     <div class="form-group row">
-                        <div class="col">
+                        <div class="col content_center">
                             <a href="{{ route('post.index') }}" class="btn btn-blue-grey">一覧に戻る</a>
                         </div>
+                        <div class="col-12 separete"></div>
                         <div class="col">
-                            <button type="submit" class="btn btn-secondary">
-                                カレンダーに追加
-                            </button> 
+                            <section class="mobile_section">
+                                <button type="submit" class="btn btn-secondary">
+                                    カレンダーに追加
+                                </button>
+                            </section>
                         </div>
                     </div>
                 </form>

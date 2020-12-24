@@ -35,10 +35,13 @@
                                         一覧へ戻る
                                     </a>
                                 </div>
+                                <div class="col-12 separete"></div>
                                 <div class="col">
-                                    <button class="btn btn-success btn_right_event">
-                                        更新
-                                    </button>
+                                    <section class="mobile_section">
+                                        <button class="btn btn-success btn_right_event">
+                                            更新
+                                        </button>
+                                    </section>
                                 </div>
                             </div>
                         </form>

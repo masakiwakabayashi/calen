@@ -57,10 +57,13 @@
                                 戻る
                             </a>
                         </div>
+                        <div class="col-12 separete"></div>
                         <div class="col">
-                            <button type="submit" class="btn btn-success btn_right_event">
-                                更新する
-                            </button> 
+                            <section class="mobile_section">
+                                <button type="submit" class="btn btn-success btn_right_event">
+                                    更新する
+                                </button> 
+                            </section>
                         </div>
                     </div>
                 </form>

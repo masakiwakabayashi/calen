@@ -7,7 +7,7 @@
             <div class="search_form">
                 <form action="{{ route('post.event.search') }}" method="POST">
                     @csrf
-                    <input type="text" name="keyword" value="{{ $keyword }}" placeholder="検索キーワードを入力してください" size="83" class="search_form_input">
+                    <input type="text" name="keyword" value="{{ $keyword }}" placeholder="キーワードを入力してください" size="28" class="search_form_input">
                     <button class="seach_btn">
                         <i class="fas fa-search"></i>
                     </button>

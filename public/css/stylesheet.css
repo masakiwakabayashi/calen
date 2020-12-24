@@ -66,16 +66,39 @@ body{
     border: 1px solid #FFA000;
 } */
 
+@media screen and (min-width: 992px) {
+	.separete{
+        display: none;
+    }
+    /* .btn_right_event{
+        margin-left: 20%;
+    } */
+}
+
+
+@media screen and (max-width: 991px) {
+    /* .btn_right_event{
+        margin-left: 26%;
+    } */
+}
+
+
+.mobile_section{
+    text-align: center;
+}
+
+
+
+
+
+
 
 .btn{
     width: 223px;
 }
 
 
-.btn_right_event{
-    margin-left: 20%;
-    /* margin-left: 40%; */
-}
+
 
 .content_center{
     text-align: center;

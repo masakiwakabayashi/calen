@@ -18,6 +18,7 @@
                     <div class="col content_center">
                         <a href="{{ route('post.index') }}" class="btn btn-blue-grey">一覧に戻る</a>
                     </div>
+                    <div class="col-12 separete"></div>
                     <div class="col content_center">
                         <a href="{{ route('post.event.create', ['post_id' => $post->id]) }}" class="btn btn-success">カレンダーに追加する</a>
                     </div>
