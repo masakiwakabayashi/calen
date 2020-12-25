@@ -12,12 +12,17 @@ use App\Http\Requests\DateRequest;
 class DateController extends Controller
 {
     public function index() {
-        $event = Event::get();
+        $event = Event::where('user_id', app('current_user')->id)
+        ->orderBy('event_day', 'DESC')
+        ->get();
+        return view('index', ['events' => $event]);
+
+        // $event = Event::get();
         // $events = Event::where('user_id', app('current_user')->id)
         // ->orderBy('event_day', 'DESC')
         // ->get();
         // dd('ここだよ〜');
-        return view('index', ['events' => $event]);
+        // return view('index', ['events' => $event]);
     }
 
     public function create() {
